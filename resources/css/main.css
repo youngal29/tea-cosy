@@ -1,0 +1,156 @@
+body {
+  margin: 0px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+h2 {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  justify-content: center;
+}
+
+h5 {
+  color: white;
+}
+
+/* Our Mission */
+
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url("/Users/alanyoung/Documents/tea cosy/resources/images/img-mission-background.jpg");
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.block-back {       /* Cannot fully center vertically within container. */
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  background-color: black;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Tea of the Month */
+
+.tea-of-the-month {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.tea-of-the-month span {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.tea-of-the-month h2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.tea-of-the-month img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+}
+
+.tea-of-the-month .text-content {
+  width: 100%;
+}
+
+/* Locations */
+
+.locations {
+  display: flex;
+  background-image: url("/Users/alanyoung/Documents/tea cosy/resources/images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.locations-title {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.black-block {             /* I'm not sure why my text won't center properly */
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.text-content p {
+  line-height: 280%;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+nav span {
+  padding-right: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  display: flex;
+  height: 50px;
+  width: auto;
+}
+
+/* Footer */
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
